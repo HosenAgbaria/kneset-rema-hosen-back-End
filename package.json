@@ -5,11 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "iall": "npm i && cd react && npm i",
-    "server": "nodemon server.js",
-    "client": "cd react && npm start",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "cd client && npm run build",
+    "server": "node server.js",
+    "build": "npm run build",
     "start": "node server"
   },
   "keywords": [],
